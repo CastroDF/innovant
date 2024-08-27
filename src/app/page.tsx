@@ -6,6 +6,7 @@ import RenderingIntegration from "@/components/services/RenderingIntegration";
 import TechnicalConsulting from "@/components/services/TechnicalConsulting";
 // import CustomDevelopment from "@/components/services/CustomDevelopment";
 import AugmentedReality from "@/components/services/AugmentedReality";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       {/* <CustomDevelopment /> */ }
       <AugmentedReality />
       <ContactSection />
+      <Footer />
     </>
   );
 }
